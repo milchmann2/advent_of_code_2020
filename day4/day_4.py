@@ -1,5 +1,7 @@
 import re
 
+# group each passport to a single consecutive string
+# removes the new lines
 def group_all_passports(passport_file):
     all_passports = ['']
     
